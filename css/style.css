@@ -525,7 +525,7 @@ ol {
 
 .fact i {
 	position: absolute;
-	right: -20px;
+	/* right: -20px; */
 	top: -10px;
 	font-size: 90px;
 	color: #fff;
@@ -1775,6 +1775,12 @@ ol {
 /* small Mobile :320px. */
 
 @media only screen and (max-width: 479px) {
+	.fact i {
+		position: absolute;
+		right: -120px;
+		top: 0;
+	}
+
 	.review-text {
 		padding: 0 45px;
 	}
@@ -1816,5 +1822,8 @@ ol {
 	}
 	.comment .comment-content {
 		padding-left: 0;
+	}
+	.fact-section {
+		padding: 100px 30px;
 	}
 }
